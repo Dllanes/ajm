@@ -4,7 +4,6 @@ import (
   "fmt"
 )
 
-func LastElement ( arr []int) int {
-  return arr[len(arr)-1]
-  
+func PrintLastElement ( arr []int) int {
+  fmt.Println(arr[len(arr)-1])
 }
