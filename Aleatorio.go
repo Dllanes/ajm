@@ -1,9 +1,9 @@
 package ajm
 
 import (
-  
+  "fmt"
 )
 
-func PrintLastElement ( arr []int) int {
+func LastElement ( arr []int) int {
   return arr[len(arr)-1]
 }
