@@ -1,9 +1,9 @@
 package ajm
 
 import (
-  "fmt"
+  
 )
 
 func PrintLastElement ( arr []int) int {
-  fmt.Println(arr[len(arr)-1])
+  return arr[len(arr)-1]
 }
