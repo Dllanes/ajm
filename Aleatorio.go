@@ -1,13 +1,13 @@
 package ajm
 
 import (
-  "fmt"
+	"fmt"
 )
 
-func LastElement ( arr []int) int {
-  return arr[len(arr)-1]
+func LastElement(arr []int) int {
+	return arr[len(arr)-1]
 }
 
-func PrintArray (arr []int) {
-  fmt.Println(arr)
+func PrintArray(arr []int) {
+	fmt.Println("estos son los elementos del array", arr)
 }
